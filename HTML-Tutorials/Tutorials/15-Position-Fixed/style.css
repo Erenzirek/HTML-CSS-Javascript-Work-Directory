@@ -1,0 +1,16 @@
+.title {
+  background-color: blue;
+  color: white;
+  position: fixed;
+  /* top: 0; */
+  left: 0;
+  width: 100%;
+  padding: 30px;
+  bottom: 0;
+}
+
+.stickyTitle {
+  position: sticky;
+  background-color: aqua;
+  top: 20px;
+}

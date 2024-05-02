@@ -1,0 +1,19 @@
+/* h1 {
+  color: pink;
+  background-color: yellow;
+}
+
+#overview {
+  color: white;
+  background-color: green;
+} */
+
+body {
+  background-color: rgb(255, 0, 0);
+  color: #f9f4f8;
+}
+
+#overview {
+  color: rgb(54, 44, 185);
+  /* opacity: 0.5; */
+}

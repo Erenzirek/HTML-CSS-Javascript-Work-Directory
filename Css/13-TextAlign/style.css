@@ -1,0 +1,10 @@
+h1 {
+  font-size: 70px;
+  /* text-align: right; */
+}
+
+p {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 12px;
+}

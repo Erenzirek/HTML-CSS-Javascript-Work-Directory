@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: chartreuse;
+            height: 80px;
+            padding: 0px 15px;
+        }
+        .headerlink{
+            margin-right: 10px;{}
+            text-decoration: none;
+        }
+        .imgDiv{
+            width: 200px;
+            border: 1px solid black;
+            border-radius: 30px;
+            margin-right: 30px;
+        }
+        .imgDiv img{
+            width: 100%;
+            border-radius: 30px 30px 0px 0px;
+        }
+        .imgDiv h3{
+            text-align: center;
+        }
+        .imgDiv p{
+            padding: 0px 20px;
+        }
+
+        input[type=text],
+        select{
+            width: 100%;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 8px 0px;
+            box-sizing: border-box;
+            border: 1px solid red;
+        }
+        
+        input[type=submit]{
+            width: 100%;
+            padding: 13px 0px;
+            background-color: lightgreen;
+            border: none;
+            color: white;
+            margin-top: 20px;
+        }
+
+        input[type=text]:focus {
+            background-color: aquamarine;
+        }
+
+        input[type=text]:hover {
+            background-color: red;
+        }
+
+        .formgeneral{
+            background-color: lightgray;
+            margin: 150px 0px;
+            padding: 20px;
+            margin: 10px 278px;
+        }
+        .footer{
+            background-color: chocolate;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .mobileIcon{
+            display: none;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .headerimg{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+        <div class="header">
+            <div class="mobileIcon">
+                <img src="icon.jpg" width="50px" height="50px"> 
+            </div>
+            <div>
+                <img class = "headerimg" src="1.jpg" style="width: 32px; height: 32px;" alt="">
+            </div>
+        
+            <div>
+                <a href="" class="headerlink">Home</a>
+                <a href="" class="headerlink">About</a>
+                <a href="" class="headerlink">Contact</a>
+            </div>
+        </div>
+        <div style="background-image: url('banner.jpg'); height:400px; text-align: center; position: relative; margin-bottom: 30px;">
+            <div style="position: absolute; top: 30px; left: 0px; right: 0px;">
+                <h3>Efsabe Banner</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente fugiat quidem nesciunt quae! Ducimus eum architecto reprehenderit deleniti natus hic veniam odit, minima dolores, magni, culpa alias pariatur corrupti necessitatibus.</p>
+            </div>
+          
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <div class="imgDiv">
+                <img src="1.jpg">
+                <h3>Efso Resim</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Ex quo eveniet delectus eligendi ullam aliquam explicabo!
+                    Praesentium laborum reprehenderit assumenda minus eveniet deserunt, 
+                    tenetur quos esse ut iure, aperiam consequuntur!
+                </p>
+            </div>
+        
+            <div class="imgDiv">
+                <img src="2.jpg">
+                <h3>Efso Resim</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Ex quo eveniet delectus eligendi ullam aliquam explicabo!
+                    Praesentium laborum reprehenderit assumenda minus eveniet deserunt, 
+                    tenetur quos esse ut iure, aperiam consequuntur!
+                </p>
+            </div>
+            
+            <div class="imgDiv">
+                <img src="3.jpg">
+                <h3>Efso Resim</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Ex quo eveniet delectus eligendi ullam aliquam explicabo!
+                    Praesentium laborum reprehenderit assumenda minus eveniet deserunt, 
+                    tenetur quos esse ut iure, aperiam consequuntur!
+                </p>
+            </div>
+            
+            <div class="imgDiv">
+                <img src="4.jpg">
+                <h3>Efso Resim</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Ex quo eveniet delectus eligendi ullam aliquam explicabo!
+                    Praesentium laborum reprehenderit assumenda minus eveniet deserunt, 
+                    tenetur quos esse ut iure, aperiam consequuntur!
+                </p>
+            </div>
+        
+        </div>
+        
+        <form class="formgeneral">
+            <label>Name</label>
+            <input type="text" name="firstname"
+            placeholder = "Enter your name">
+
+            <label>Surname</label>
+            <input type="text" name="lastname"
+            placeholder = "Enter your surname">
+
+            <label for="country">Country</label>
+            <select name="country">
+                <option value="tr">Turkey</option>
+                <option value="fr">French</option>
+                <option value="en">England</option>
+            </select>
+            <input type="submit" value="Save">
+        </form>
+        
+        <div class="footer">
+            <h3>Frontend && Tüm Hakları Saklıdır</h3>
+
+        </div>
+
+</body>
+</html>

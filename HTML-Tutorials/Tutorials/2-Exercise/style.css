@@ -1,0 +1,23 @@
+.message1{
+    color:aqua;
+    background-color: yellow;
+}
+
+.message2{
+    color:blue;
+    background-color: yellow;
+}
+
+.message3{
+    color:red;
+    background-color: yellow;
+    border: 1px solid green ;
+}
+
+
+p{
+    color : blue;
+    border: inherit;
+}
+
+

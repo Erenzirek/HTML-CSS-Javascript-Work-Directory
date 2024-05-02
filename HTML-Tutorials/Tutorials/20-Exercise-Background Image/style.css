@@ -1,0 +1,19 @@
+ .box1{
+  width: 500px;
+  height: 500px;
+  border: 2px solid red;
+  background-image: url('images/man.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top-left;
+}
+
+.box2{
+  width: 300px;
+  height: 500px;
+  border: 2px solid red;
+  background-image: url('images/heykel.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

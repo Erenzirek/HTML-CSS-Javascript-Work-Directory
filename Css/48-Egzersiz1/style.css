@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.box4 {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

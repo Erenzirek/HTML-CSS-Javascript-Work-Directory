@@ -1,0 +1,10 @@
+body{
+  background-color: red;
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    /* 768'e kadar blue */
+    background-color: blue;
+  }
+}

@@ -1,0 +1,41 @@
+/* input[type='text'] {
+  border: 1px solid red;
+}
+input[type='number'] {
+  border: 1px solid blue;
+}
+input[type='checkbox'] {
+  margin-right: 30px;
+}
+
+h1,
+h2 {
+  color: aqua;
+} */
+/* h2 {
+  color: aqua;
+} */
+
+/* #summaryList,
+#summary,
+.title {
+  color: red;
+} */
+/* 
+ul > span {
+  color: red;
+}
+
+ol li {
+  border: 1px solid red;
+} */
+
+ul#summary {
+  color: red;
+}
+h2#summaryies {
+  color: red;
+}
+h2.title {
+  color: blue;
+}

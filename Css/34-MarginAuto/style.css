@@ -1,0 +1,17 @@
+.genaralTitle {
+}
+.title {
+}
+
+#container {
+  background-color: yellow;
+  border: 1px solid red;
+  width: 500px;
+  height: 500px;
+}
+
+#container h2 {
+  text-align: center;
+  width: 250px;
+  border: 1px solid black;
+}

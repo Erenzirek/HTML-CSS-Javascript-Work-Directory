@@ -1,0 +1,26 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: blueviolet;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  border: 6px solid white;
+  border-top-color: blue;
+  border-radius: 50%;
+  animation: 1s linear myAnimation infinite;
+}
+
+@keyframes myAnimation{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  border: 1px solid red;
+  margin: 0;
+}
+a {
+  border: 1px solid blue;
+}

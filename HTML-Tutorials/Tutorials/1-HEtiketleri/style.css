@@ -1,0 +1,19 @@
+table,
+th,
+td {
+    border: 1px solid red;
+}
+td {
+    padding: 15px;
+}
+th{
+    text-align: left;
+}
+
+li{
+    color:blueviolet;
+}
+
+p{
+    color:chartreuse;
+}

@@ -1,0 +1,9 @@
+.box{
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+  margin-left: 40px;
+  background-color: blue;
+  /* transform: translateY(100px); */
+  transform: scale(1.5);
+}

@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-color: burlywood;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.register {
+  margin-left: auto !important;
+  margin-right: 50px !important;
+}
+
+.navlink {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 0px 15px;
+}

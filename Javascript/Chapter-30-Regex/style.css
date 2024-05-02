@@ -1,0 +1,26 @@
+body{
+    background-color: blueviolet;
+}
+.signupForm{
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    padding: 50px 50px;
+}
+
+button{
+    padding: 8px;
+    margin: 20px auto;
+}
+
+input{
+    padding: 8px;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}

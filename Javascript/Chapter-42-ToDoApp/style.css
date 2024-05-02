@@ -1,0 +1,42 @@
+body{
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+ul{
+    height: 200px;
+    weight: 500px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.form-control{
+    padding: 8px;
+    margin: 20px;
+}
+
+.box{
+    list-style-type: none; /* Noktaları kaldır */
+    padding: 8px;
+
+}
+
+.Add{
+    height: 200px;
+    weight: 100px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+}
+
+.add{
+    padding: 8px;
+    margin: 20px;
+}

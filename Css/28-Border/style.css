@@ -1,0 +1,9 @@
+h1 {
+  /* border-width: 2px;
+  border-color: red;
+  border-style: solid; */
+  border-top: 4px dashed blue;
+  border-left: 1px dotted pink;
+  border-right: 8px dotted green;
+  border-bottom: 2px solid red;
+}

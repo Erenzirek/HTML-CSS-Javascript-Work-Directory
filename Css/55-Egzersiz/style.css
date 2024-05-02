@@ -1,0 +1,18 @@
+.box1 {
+  width: 500px;
+  height: 500px;
+  border: 2px solid red;
+  background-image: url('https://plus.unsplash.com/premium_photo-1700391373098-cd9acd1b7e7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEwfGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D');
+  background-size: cover;
+  background-position: bottom right;
+}
+
+.box2 {
+  background-position: center;
+  width: 300px;
+  height: 500px;
+  border: 2px solid red;
+  background-image: url(https://images.unsplash.com/photo-1700681788294-98577906171d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDd8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D);
+  background-size: contain;
+  background-repeat: no-repeat;
+}

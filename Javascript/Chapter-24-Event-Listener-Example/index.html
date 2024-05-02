@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eren</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <div class="box">
+     <p>Box1</p>
+   </div>
+
+   <div class="box">
+     <p>Box2</p>
+   </div>
+
+   <div class="box">
+     <p>Box3</p>
+   </div>
+
+   <script>
+       // JavaScript kodu buraya eklenecek
+       document.addEventListener('DOMContentLoaded', () => {
+           const boxes = document.querySelectorAll('.box');
+
+           boxes.forEach(box => {
+               box.addEventListener('click', e => {
+                   e.target.style.color = 'blue';
+               });
+           });
+       });
+   </script>
+
+</body>
+</html>

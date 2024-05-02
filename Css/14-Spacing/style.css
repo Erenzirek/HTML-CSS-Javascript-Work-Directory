@@ -1,0 +1,13 @@
+h1 {
+  font-size: 70px;
+  /* letter-spacing: 2px; */
+  word-spacing: 40px;
+  /* text-align: right; */
+}
+
+p {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 30px;
+}

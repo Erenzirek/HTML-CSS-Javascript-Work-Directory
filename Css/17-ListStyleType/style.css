@@ -1,0 +1,13 @@
+h2 {
+  text-transform: capitalize;
+}
+
+h1 {
+  /* text-decoration-line: line-through;
+  text-decoration-style: dotted;
+  text-decoration-color: red; */
+  text-decoration: line-through dotted red;
+}
+ul {
+  list-style-type: circle;
+}

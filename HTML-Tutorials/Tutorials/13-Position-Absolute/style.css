@@ -1,0 +1,14 @@
+.box{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    display: inline-block;
+}
+
+.box span{
+  background-color: pink;
+  position: relative;
+  top:0px;
+  right: 0;
+}

@@ -1,0 +1,79 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+header {
+  margin: 32px;
+}
+
+h1 {
+  display: inline-block;
+  font-weight: 300;
+}
+.links {
+  display: inline-block;
+}
+
+.links li {
+  display: inline-block;
+}
+.links a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0px 8px;
+}
+
+a.active {
+  border-bottom: 1px solid black;
+}
+
+.gallery {
+  padding: 25px;
+}
+.card {
+  display: inline-block;
+  width: 49%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.card img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card img:hover {
+  opacity: 0.9;
+}
+.card h2 {
+  margin: 8px 0px 16px 0px;
+  font-weight: 300;
+}
+
+.why {
+  width: 50%;
+  margin: 100px 200px;
+}
+
+.banner {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.message {
+  color: red;
+  font-size: 50px;
+  font-style: italic;
+  margin-top: 0px;
+  border-bottom: 1px solid black;
+  padding-bottom: 8px;
+}
+
+.contact p {
+  margin: 0;
+  font-weight: 600;
+}
